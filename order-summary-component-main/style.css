@@ -15,7 +15,7 @@ body{
     background: #fff;
     box-shadow: 0 5px 5px 0 rgba(23, 32, 42 ,0.1);
 }
-.image img{
+.image>svg{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     background-size: cover;
