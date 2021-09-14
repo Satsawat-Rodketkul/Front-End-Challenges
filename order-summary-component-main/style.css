@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 body{
     display: flex;
-    background: url("/order-summary-component-main/images/pattern-background-desktop.svg") no-repeat  hsl(225, 100%, 94%);
+    background: url('/order-summary-component-main/images/pattern-background-desktop.svg') no-repeat hsl(225, 100%, 94%);
     background-size: 100%;
     justify-content: center;
     align-items: center;
