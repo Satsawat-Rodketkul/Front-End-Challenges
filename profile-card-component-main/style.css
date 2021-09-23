@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: hsl(185, 75%, 39%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    overflow: hidden;
+}
+.bg-circles>img{
+    position: absolute;
+}
+.bg-top{
+    top: -32rem;
+    left: -15.5rem;
+}
+.bg-bottom{
+    top: 23rem;
+    right: -12.5rem;
+}
+.card-container{
+    width: 350px;
+    height: 374px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+}
+.header>svg{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.main-content>img{
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+    margin-top: -16%;
+}
+.main-content>h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.main-content>h1>span{
+    font-size: 18px;
+    font-weight: 400;
+    color:  hsl(227, 10%, 46%);
+    padding-left: 10px;
+}
+.main-content>h3{
+    font-size: 15px;
+    font-weight: 400;
+    color:  hsl(227, 10%, 46%);
+    margin-top: -5px;
+}
+.stats-content{
+    border-top: 1px solid hsl(0, 0%, 59%);
+    display: flex;
+    margin-top: 25px;
+}
+.stats{
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.stats-3{
+    margin-left: 50px;
+}
+.stats>h1{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.stats>p{
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    margin-top: -10px;
+    letter-spacing: 1px;
+}
+.attribution { 
+    margin-top: 1rem;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
+
+/* Responsive */
+@media only screen and (max-width:375px) {
+    .card-container{
+        width: 90%;
+        margin: auto;
+    }
+    .stats{
+        width: 100%;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+    .header>svg{
+        width: 100%;
+    }
+    .bg-top{
+        width: 190%;
+        top: -25rem;
+        left: -31.5rem;
+    }
+    .bg-bottom{
+        width: 190%;
+        top: 20rem;
+        left: 10.5rem;
+    }
+}
