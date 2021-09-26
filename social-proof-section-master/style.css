@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+body{
+    display: flex;
+    font-family: 'Spartan', sans-serif;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.bg-top{
+    position: absolute;
+    margin-top: -7rem;
+}
+.bg-bottom{
+    position: absolute;
+    margin-bottom: -2rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+.container{
+    margin-top: 2.5rem;
+    width: 95%;
+}
+
+/* Hearder Content */
+.header{
+    display: flex;
+}
+.left-content{
+    margin-left: 5.1rem;
+    width: 45%;
+}
+.left-content>h1{
+    font-size: 53px;
+    width: 80%;
+    color: hsl(300, 43%, 22%);
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.left-content>p{
+    width: 80%;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.right-content{
+    margin-top: 3.3rem;
+}
+.stars>svg{
+    margin-left: 9px;
+}
+.stars>h4{
+    margin-left: 25px;
+}
+.stars{
+    display:flex;
+    align-items: center;
+    font-size: 16px;
+    color: hsl(300, 43%, 22%);
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding-left: 30px;
+    width: 480px;
+}
+.star-2{
+    margin-left: 3.5rem;
+}
+.star-3{
+    margin-left: 7rem;
+}
+
+/* Card Content */
+.card-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+.card{
+    height: 11.5rem;
+    width: 21rem;
+    margin: 1rem;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+.image-person>img{
+    width: 55%;
+    border-radius: 50%;
+}
+.image-person{
+    margin-right: -10px;
+}
+.top-content{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.card>p{
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    color: hsl(300, 24%, 96%);
+}
+.content-name>h2{
+    margin-bottom: -10px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+}
+.content-name>h3{
+    font-size: 15px;
+    color: hsl(333, 80%, 67%);
+    font-weight: 400;
+}
+.crad-2{
+    margin-top: 2rem;
+}
+.crad-3{
+    margin-top: 3rem;
+}
+.attribution {
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
